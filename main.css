@@ -26,6 +26,7 @@ body{
 }
 header{
     text-align: center;
+    color: white;
     
 }
 form{
@@ -64,4 +65,5 @@ nav{
 }
 footer{
     text-align: center;
+    color: white;
 }
