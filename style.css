@@ -1,0 +1,87 @@
+body{
+    font-family: sans-serif;
+    background-color: grey;
+    background-image: url(fire.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 832px; 
+    background-position: center; 
+}
+
+table{
+    border-collapse: collapse;
+    border: solid 2px lightgray;
+    letter-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18%;
+}
+
+col.hightlitghed{
+    border: solid 2px black;
+}
+
+caption{
+    padding: 10px;
+    font-size: 0.8rem;
+}
+
+thead th, thead td{
+    background-color: rgb(63, 13, 13);
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgb(97, 17, 17);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(73, 15, 15);
+}
+
+tr, th{
+    border: solid 2px black;
+    text-align: center;
+    padding: 10px 10px;
+    width: 10%;
+    color: red;
+}
+
+ul{
+    list-style-type: none;
+}
+nav > ul li a {
+    display: block;
+    padding: 15px 20px;
+    background-color: rgb(97, 17, 17);
+    color: rgb(255, 255, 255);
+
+    text-decoration: none;
+    text-align: center;
+}
+nav > ul li a:hover{
+    background-color: rgb(0, 0, 0);
+    color: #ff0000;
+}
+@media screen and (max-width: 1200px) {
+    nav > ul{
+        margin: 5px;
+    }
+    nav > ul li {
+        display: inline-block;
+    }
+}
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    grid-area: nav;
+    
+}
+@media screen and (max-width: 500px) {
+    img{
+        display: none;
+    }
+
+}
