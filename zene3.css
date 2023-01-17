@@ -1,0 +1,60 @@
+.flex-container {
+    display: flex;
+    height: 200px;
+    margin-top: 18%;
+}
+
+.flex-container > div {
+    background-color: rgb(145, 11, 62);
+    color: black;
+    width: 500px;
+    margin: 5px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+body {
+    background-color: black;
+    box-sizing: border-box;
+    background-image: url(galaxy.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+img {
+    padding-left: 40%;
+}
+@media screen and (max-width: 800px){
+    body img{
+        display: none;
+    }
+}
+@media screen and (max-width: 800px){
+    .flex-container{
+        height: auto;
+    }
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  align-content: center;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 1px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
